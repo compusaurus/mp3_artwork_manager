@@ -1,0 +1,11 @@
+{
+  "input_dir": "C:\\Users\\mpw\\Music\\Small",
+  "log_dir": "C:\\Users\\mpw\\Python\\mp3_artwork_manager\\logs",
+  "splash_dir": "C:\\Users\\mpw\\Python\\mp3_artwork_manager",
+  "splash_image": "compusaurusrex.jpg",
+  "buttons_position": "bottom",
+  "show_splash": true,
+  "splash_duration": 2000,
+  "show_confirmations": false,
+  "first_launch": true
+}

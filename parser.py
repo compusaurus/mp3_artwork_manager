@@ -1,3 +1,4 @@
+# core/parser.py
 import re
 from typing import Tuple
 
@@ -16,5 +17,7 @@ def parse_filename(filename: str) -> Tuple[str, str]:
         return match.group(1).strip(), match.group(2).strip()
 
     parts = name.strip().split()
+    if len(parts) == 1:
+        return parts[0], ""
     mid = len(parts) // 2
     return " ".join(parts[:mid]), " ".join(parts[mid:])

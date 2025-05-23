@@ -1,3 +1,4 @@
 mutagen>=1.45
 requests>=2.25
 pillow>=8.0
+pytest>=7.0
